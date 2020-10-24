@@ -1,0 +1,14 @@
+.main-header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  max-width: 1235px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 56px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 1;
+}

@@ -1,0 +1,30 @@
+.main-nav {
+  display: flex;
+  width: 45%;
+  padding-top: 15px;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main-nav__item {
+  white-space: nowrap;
+}
+
+.main-nav__item--home {
+  font-weight: 700;
+}
+
+.main-nav__link {
+  color: rgba(31, 21, 52, 1);
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,30 @@
+.footer-nav {
+  display: flex;
+  max-width: 700px;
+  width: 56%;
+  justify-content: space-between;
+  padding-right: 70px;
+}
+
+.footer-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav__title {
+  font-size: 20px;
+  color: white;
+}
+
+.footer-nav__item {
+  margin-bottom: 15px;
+}
+
+.footer-nav__link {
+  color: white;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

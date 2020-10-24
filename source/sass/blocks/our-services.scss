@@ -1,0 +1,151 @@
+.our-services {
+  position: relative;
+  margin-bottom: 215px;
+}
+
+.our-services__wrap {
+  position: relative;
+  max-width: 1235px;
+  margin: 0 auto;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 298px;
+    left: -351px;
+    display: block;
+    width: 987px;
+    height: 806px;
+    background-image: url("../img/bg-element.png");
+    background-repeat: no-repeat;
+    background-size: 993px 950px;
+    z-index: -1;
+  }
+}
+
+.our-services__heading {
+  position: relative;
+  margin: 0;
+  margin-bottom: 80px;
+  font-size: 36px;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 56px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+  }
+}
+
+.our-services__description {
+  width: 75%;
+  text-align: center;
+  margin: 0 auto 85px;
+  letter-spacing: 0.7px;
+}
+
+.our-services__card-list {
+  position: relative;
+  width: 90%;
+  padding: 0;
+  margin: 0 auto 70px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 34px;
+  grid-row-gap: 37px;
+  justify-items: stretch;
+  align-items: stretch;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 338px;
+    right: -58px;
+    display: block;
+    width: 131px;
+    height: 115px;
+    background-image: url("../img/decoration-element.svg");
+    background-repeat: no-repeat;
+    background-size: 131px 115px;
+    z-index: -1;
+  }
+}
+
+.our-services__card-item {
+  padding: 183px 35px 55px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 0 30px -2px rgba(229, 233, 246, 1);
+}
+
+.our-services__card-item--search {
+  background-image: url("../img/icon-search.svg");
+  background-repeat: no-repeat;
+  background-size: 90px 90px;
+  background-position: 34px 57px;
+}
+
+.our-services__card-item--pharmacy {
+  background-image: url("../img/icon-pharmacy.svg");
+  background-repeat: no-repeat;
+  background-size: 61px 85px;
+  background-position: 35px 65px;
+}
+
+.our-services__card-item--consultation {
+  background-image: url("../img/icon-consultation.svg");
+  background-repeat: no-repeat;
+  background-size: 67px 95px;
+  background-position: 40px 50px;
+}
+
+.our-services__card-item--info {
+  background-image: url("../img/icon-info.svg");
+  background-repeat: no-repeat;
+  background-size: 67px 95px;
+  background-position: 40px 50px;
+}
+
+.our-services__card-item--emergency {
+  background-image: url("../img/icon-emergency-care.svg");
+  background-repeat: no-repeat;
+  background-size: 80px 71px;
+  background-position: 39px 65px;
+}
+
+.our-services__card-item--track {
+  background-image: url("../img/icon-track.svg");
+  background-repeat: no-repeat;
+  background-size: 69px 95px;
+  background-position: 39px 55px;
+}
+
+.our-services__title {
+  margin: 0 0 25px;
+  font-size: 24px;
+}
+
+.our-services__descr {
+  margin: 0;
+}
+
+.our-services__btn {
+  width: 200px;
+  margin: 0 auto;
+  border: 2px solid rgba(69, 143, 246, 1);
+  background-color: transparent;
+  color: rgba(69, 143, 246, 1);
+
+  &:hover {
+    background-color: rgba(69, 143, 246, 1);
+    color: white;
+  }
+}

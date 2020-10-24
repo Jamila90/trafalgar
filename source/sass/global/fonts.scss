@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Mulish";
+  src: local("mulishbold"), url("../fonts/mulish-bold.woff2") format("woff2"), local("mulishbold"), url("../fonts/mulish-bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: local("mulishlight"), url("../fonts/mulish-light.woff2") format("woff2"), local("mulishlight"), url("../fonts/mulish-light.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
