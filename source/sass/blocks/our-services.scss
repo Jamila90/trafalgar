@@ -1,6 +1,6 @@
 .our-services {
   position: relative;
-  margin-bottom: 215px;
+  margin-bottom: 204px;
 }
 
 .our-services__wrap {
@@ -45,10 +45,14 @@
 }
 
 .our-services__description {
-  width: 75%;
+  width: 77%;
   text-align: center;
-  margin: 0 auto 85px;
-  letter-spacing: 0.7px;
+  margin: 0 auto 78px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .our-services__card-list {
@@ -80,7 +84,7 @@
 }
 
 .our-services__card-item {
-  padding: 183px 35px 55px;
+  padding: 183px 36px 49px;
   border-radius: 25px;
   background-color: white;
   box-shadow: 0 0 30px -2px rgba(229, 233, 246, 1);
@@ -111,7 +115,7 @@
   background-image: url("../img/icon-info.svg");
   background-repeat: no-repeat;
   background-size: 67px 95px;
-  background-position: 40px 50px;
+  background-position: 35px 48px;
 }
 
 .our-services__card-item--emergency {
@@ -129,12 +133,15 @@
 }
 
 .our-services__title {
-  margin: 0 0 25px;
+  margin: 0 0 18px;
   font-size: 24px;
 }
 
 .our-services__descr {
   margin: 0;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .our-services__btn {

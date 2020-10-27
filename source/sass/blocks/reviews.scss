@@ -1,5 +1,5 @@
 .reviews {
-  margin-bottom: 245px;
+  margin-bottom: 244px;
 }
 
 .reviews__wrap {
@@ -11,8 +11,8 @@
   position: relative;
   max-width: 1122px;
   margin: 0 auto;
-  padding-top: 75px;
-  padding-bottom: 87px;
+  padding-top: 71px;
+  padding-bottom: 86px;
   background: linear-gradient(204deg, rgba(103, 195, 243, 1) 0%, rgba(90, 152, 242, 1) 100%);
   border-radius: 25px;
   margin-bottom: 50px;
@@ -50,14 +50,14 @@
   margin: 0 auto;
   font-size: 36px;
   max-width: 515px;
-  line-height: 40px;
+  line-height: 44px;
   color: white;
-  margin-bottom: 66px;
+  margin-bottom: 60px;
 
   &::before {
     content: "";
     position: absolute;
-    bottom: 14px;
+    bottom: 18px;
     right: 225px;
     display: block;
     width: 56px;

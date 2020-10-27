@@ -6,11 +6,12 @@
 
 .main-nav__list {
   margin: 0;
-  padding: 0;
+  padding: 0 3px;
   display: flex;
   list-style: none;
   width: 100%;
   justify-content: space-between;
+  letter-spacing: 0.5px;
 }
 
 .main-nav__item {
@@ -22,9 +23,13 @@
 }
 
 .main-nav__link {
-  color: rgba(31, 21, 52, 1);
+  color: rgba(31, 21, 52, 0.5);
 
   &:hover {
     opacity: 0.7;
   }
+}
+
+.main-nav__link--home {
+  color: rgba(31, 21, 52, 1);
 }

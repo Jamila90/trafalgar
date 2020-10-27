@@ -10,15 +10,12 @@
     "eslint-config-htmlacademy": "0.4.x",
     "gulp": "4.0.x",
     "gulp-csso": "^3.0.1",
-    "gulp-imagemin": "^5.0.3",
     "gulp-plumber": "1.2.x",
     "gulp-postcss": "8.0.x",
     "gulp-posthtml": "^3.0.4",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "4.0.x",
     "gulp-sourcemaps": "2.6.x",
-    "gulp-svgstore": "^7.0.1",
-    "gulp-webp": "^4.0.1",
     "pixel-glass": "^1.0.13",
     "posthtml-include": "^1.2.0",
     "stylelint": "9.10.x",
@@ -29,9 +26,7 @@
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "test": "npm run editorconfig && npm run stylelint && eslint source/js/main.js",
     "build": "gulp build",
-    "start": "gulp start",
-    "webp": "gulp webp",
-    "sprite": "gulp sprite"
+    "start": "gulp start"
   },
   "browserslist": [
     "last 2 versions",
@@ -43,7 +38,6 @@
     "*.js",
     "source/*.html",
     "source/js/**/script.js",
-    "source/img/**/*.svg",
     "source/sass/**/*.{sass,scss}"
   ],
   "engines": {

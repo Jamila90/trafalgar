@@ -1,6 +1,6 @@
 .providers {
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 204px;
 
   &::before {
     content: "";
@@ -26,7 +26,7 @@
   &::before {
     content: "";
     position: absolute;
-    top: 7px;
+    top: 15px;
     left: -47px;
     display: block;
     width: 650px;
@@ -36,15 +36,15 @@
 }
 
 .providers__text-wrap {
-  max-width: 490px;
+  max-width: 495px;
   margin-left: auto;
 }
 
 .providers__heading {
   position: relative;
-  margin: 0 0 66px;
+  margin: 0 0 62px;
   font-size: 36px;
-  line-height: 50px;
+  line-height: 53px;
 
   &::before {
     content: "";
@@ -59,10 +59,11 @@
 }
 
 .providers__descr {
-  margin: 0 0 40px;
+  margin: 0 0 38px;
   font-size: 18px;
   line-height: 30px;
   padding-right: 92px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .providers__btn {

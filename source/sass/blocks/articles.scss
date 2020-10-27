@@ -26,7 +26,7 @@
 
 .articles__heading {
   position: relative;
-  margin: 0 0 115px;
+  margin: 0 0 120px;
   font-size: 36px;
   text-align: center;
 
@@ -70,7 +70,7 @@
 }
 
 .articles__item {
-  padding: 272px 35px 0;
+  padding: 268px 32px 0;
   margin-bottom: 78px;
   height: max-content;
   box-shadow: 0 0 30px -2px #e5e9f6;
@@ -87,24 +87,27 @@
 .articles__item--herbal {
   background-image: url("../img/desktop-img2@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 0 -30px;
+  background-position: -18px -30px;
 }
 
 .articles__item--face {
   background-image: url("../img/desktop-img3@1x.jpg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: -16px -3px;
 }
 
 .articles__title {
   margin: 0 0 12px;
   font-size: 21px;
   line-height: 30px;
+  letter-spacing: 0.2px;
 }
 
 .articles__subtitle {
-  margin: 0 0 22px;
-  line-height: 30px;
+  margin: 0 0 27px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .articles__link {

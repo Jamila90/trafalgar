@@ -1,5 +1,5 @@
 .mobile-apps {
-  margin-bottom: 283px;
+  margin-bottom: 286px;
 }
 
 .mobile-apps__wrap {
@@ -27,9 +27,9 @@
 
 .mobile-apps__heading {
   position: relative;
-  margin: 0 0 72px;
+  margin: 0 0 65px;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 45px;
 
   &::before {
     content: "";
@@ -44,9 +44,11 @@
 }
 
 .mobile-apps__descr {
-  margin: 0 0 40px;
-  font-size: 18px;
-  line-height: 29px;
+  margin: 0 0 38px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .mobile-apps__btn {

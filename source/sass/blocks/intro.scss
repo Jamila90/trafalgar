@@ -36,23 +36,27 @@
 }
 
 .intro__heading {
-  margin: 0 0 35px;
+  margin: 0 0 31px;
   max-width: 480px;
   font-size: 48px;
   line-height: 50px;
 }
 
 .intro__description {
-  margin: 0 0 50px;
+  margin: 0 0 51px;
   max-width: 442px;
   font-size: 21px;
   line-height: 31px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  color: rgba(125, 121, 135, 1);
 }
 
 .intro__btn {
   width: 200px;
   background-color: rgba(69, 143, 246, 1);
   color: white;
+  letter-spacing: 0.5px;
 
   &:hover {
     padding-top: 16px;
